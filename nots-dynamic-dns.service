@@ -1,0 +1,7 @@
+[Unit]
+Description=NOTS Dynamic DNS
+
+[Service]
+Type=simple
+ExecStart=/opt/nots_dynamic_dns
+User=YOURUSER
